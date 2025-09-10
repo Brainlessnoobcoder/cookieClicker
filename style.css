@@ -1,0 +1,52 @@
+body{
+    background: grey;
+}
+#scoreSec{
+    border: inset;
+    text-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background: silver;
+}
+#scoreSec:hover{
+    background: whitesmoke;
+}
+p:hover{
+    color: rgb(133, 216, 188);
+    text-wrap: wrap;
+}
+
+#button{
+    display: flex;
+    border: none;
+    max-width: 600px;
+    min-width: 320px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 20%;
+}
+#mainClickBtn{
+    font-size: 2rem;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    border-radius: 17px;
+}
+#shop{
+    
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+#item1{
+    text-wrap: wrap;
+    border: 2px inset burlywood;
+    min-width: 20px;
+    margin: 12px;
+    text-align: center;
+}
