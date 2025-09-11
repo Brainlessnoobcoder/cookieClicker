@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Auto Clicker</title>
     <link rel="stylesheet" href="css/style.css"/>
+
+    <script>
+    var actualScore = 0;  // Global variable
+</script>
+
+
     <script src="js/autoclicker.js"></script>
     <script src="js/shop.js"></script>
 
-     
-    <!-- remove the above meta tag after writing code!.-->
 </head>
 <body>
     <main>
@@ -24,7 +28,7 @@
         <section id="button">
             <button id="mainClickBtn">Click here</button>
         </section>
-        <section id="shop">
+        <section id="shop" class="shopItemCards">
             <div id="item1">
                  <h2>Auto Clicker</h2>
                  <p>Increases your clicks automatically.</p>

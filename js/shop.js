@@ -1,4 +1,3 @@
-var actualScore = 0;
 
 
 window.addEventListener('load', function(){
@@ -15,4 +14,4 @@ window.addEventListener('load', function(){
             <button id="item2Btn">Buy (${item2price} points)</button>`;
             shopSec.appendChild(item2Card);
         }
-})
+});

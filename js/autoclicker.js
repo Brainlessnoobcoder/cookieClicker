@@ -3,7 +3,6 @@ window.addEventListener('load', function() {
     var scorePanel = document.getElementById("score");
     var item1Button = document.getElementById('item1Btn');
     var item1Value = 99;
-    var actualScore = 0;
     var scoreAdder = 1;
     var item1Status = false;
 
